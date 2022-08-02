@@ -17,25 +17,21 @@ const newElement = React.createElement('h3',{className:'newElement'},'hello Guys
  // 2. Class Components .
 
 
- //example of function components
+ //example of class  components
  
-function App() {
-  return (
+class App extends React.Component
+ {
 
-    <div className="App">
-      <h1>Hello {name} Boss.</h1>
-      <h2>I am {age} Year old .</h2>
-      {profile}
-      {newElement}
-
-    </div>
-  );
-}
+  render(){
+    return <h1>Hello Dhiraj.</h1>
+  
+  }
+ }
 
 
 
 
-//
+
 
 
 
