@@ -11,8 +11,15 @@ class App extends React.Component
   render(){
     return ( 
       <div className='App'>
-       <Header/>
+       <Header name="Boss"/>
        <br/>
+
+       <Header name="Dhiraj"/>
+       <br/>
+
+       <Header name="yasika"/>
+       <br/>
+
        <Body/>
        <br/>
 

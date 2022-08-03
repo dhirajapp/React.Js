@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header= () =>{
+const Header= (props) =>{
     return( 
-    <h1>Hello Boss.<br/>
-    Functional Component has been ready .</h1>
+    <h1>Hello {props.name}.<br/>
+    Functional ComponentsS has been ready .</h1>
     
     );          
 }
