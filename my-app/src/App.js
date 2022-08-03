@@ -16,10 +16,10 @@ class App extends React.Component
        <Header name="Dhiraj" >   <p>Dhiraj is very serious guys.</p>  </Header>
        
        <Header name="yasika" >  <p>she is very rood .</p>    </Header>
-       <br/>
+       
 
-       <Body/>
-       <br/>
+       <Body name="Dhiraj Kumar">  </Body>
+       
 
        <br/>
        <Footer/>

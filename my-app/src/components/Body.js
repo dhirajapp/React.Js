@@ -2,7 +2,12 @@ import React from "react";
 
 class Body extends React.Component{
     render(){
-        return <h2>Hello Class Components .</h2>
+        return (
+         <h2>Hello {this.props.name}. its a Class ComponentsS .</h2>
+        
+           
+        );
+        
     }
 }
 
