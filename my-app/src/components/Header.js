@@ -2,8 +2,12 @@ import React from "react";
 
 const Header= (props) =>{
     return( 
-    <h1>Hello {props.name}.<br/>
+        <div>
+    <h1>Hello {props.name}.
     Functional ComponentsS has been ready .</h1>
+    {props.children}
+
+    </div>
     
     );          
 }

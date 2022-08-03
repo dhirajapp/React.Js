@@ -11,13 +11,11 @@ class App extends React.Component
   render(){
     return ( 
       <div className='App'>
-       <Header name="Boss"/>
-       <br/>
+       <Header name="Boss" >  <p>Boss is very cool guys.</p> </Header> 
 
-       <Header name="Dhiraj"/>
-       <br/>
-
-       <Header name="yasika"/>
+       <Header name="Dhiraj" >   <p>Dhiraj is very serious guys.</p>  </Header>
+       
+       <Header name="yasika" >  <p>she is very rood .</p>    </Header>
        <br/>
 
        <Body/>
