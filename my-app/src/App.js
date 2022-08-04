@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
+import Channel from './components/Channel';
 import {Footer} from './components/Footer';
 
  
@@ -19,6 +20,8 @@ class App extends React.Component
        
 
        <Body name="Dhiraj Kumar">  </Body>
+
+       <Channel></Channel>
        
 
        <br/>
