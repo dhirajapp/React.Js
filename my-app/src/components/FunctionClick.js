@@ -4,12 +4,13 @@ function FunctionClick() {
 
   
 
-  function changEvent(){
+  function changEvent(m){
+   m.preventDefault();
     console.log("hello");
   }
   return (
     <div>
-      <button onClick={changEvent}>Click Me.</button>
+      <a href="https://dhirajapp.github.io/" onClick={changEvent} >Click</a>
     </div>
   )
 }
